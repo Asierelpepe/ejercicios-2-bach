@@ -6,6 +6,7 @@ public class Mamá_dame_10x15€ {
     static void main() {
 
         System.out.println("¿Cuántas horas trabajas al mes? ");
+
         System.out.println("Insertar aquí: ");
 
         Scanner Hacienda = new Scanner(System.in);
