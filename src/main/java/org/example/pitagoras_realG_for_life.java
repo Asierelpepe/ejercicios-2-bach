@@ -23,6 +23,9 @@ public class pitagoras_realG_for_life {
         } else if ((l1==l2 && l1!=l3) || (l1!=l2 && l1==l3) || (l1!=l2 && l2==l3)) {
             System.out.println("El triángulo es isósceles");
         }
+        else {
+            System.out.println("El triángulo es escaleno");
+        }
 
 
     }
