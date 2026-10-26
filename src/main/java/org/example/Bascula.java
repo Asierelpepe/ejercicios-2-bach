@@ -29,7 +29,7 @@ public class Bascula {
             System.out.println("ERROR DE LECTURA, BAJA DE LA BÁSCULA Y VUELVE A SUBIR");
 
         }
-        double PESOMIN = (2*altura)/8;
+        double PESOMIN = (double) (2 * altura) /8;
                 double PESOMAX = 120;
         if (peso >= PESOMIN && peso <= PESOMAX) {
             System.out.println("Pesas "+peso+"kg. Peso mínimo calculado: "+PESOMIN+"kg");
