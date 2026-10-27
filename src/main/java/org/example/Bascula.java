@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Bascula {
     static void main() {
         int SUBIR = 1;
+
         System.out.println("BIENVENIDO AL RATÓN JUGUETÓN");
 
         Scanner medida = new Scanner(System.in);
