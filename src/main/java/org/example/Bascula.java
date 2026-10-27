@@ -32,7 +32,7 @@ public class Bascula {
        }
 
         if (SUBIR == 1){
-            System.out.println("Leyendo peso cm...");
+            System.out.println("Leyendo peso kg...");
             double peso = 0;
             try {
                 peso = medida.nextDouble();
