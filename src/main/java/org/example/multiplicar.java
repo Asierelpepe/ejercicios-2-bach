@@ -6,16 +6,16 @@ public class multiplicar {
     static void main() {
         Scanner einstein = new Scanner(System.in);
 
-        System.out.println("Introduce un numero de 3 cifras");
+        System.out.println("Introduce un numero de 3 cifras: ");
         Integer num1 = einstein.nextInt();
-        if (num1 > 999){
-            System.out.println("ERROR el numero 1 debe tener 3 cifras");
+        if (num1 > 999 || num1 < 100){
+            System.out.println("ERROR el numero 1 debe tener 3 cifras positivas");
 
         }else {
-        System.out.println("Introduce otro numero de 3 cifras");
+        System.out.println("Introduce otro numero de 3 cifras: ");
         Integer num2 = einstein.nextInt();
-        if (num2>999){
-            System.out.println("ERROR el numero 2 debe tener 3 cifras");
+        if (num2>999 || num2 < 100){
+            System.out.println("ERROR el numero 2 debe tener 3 cifras positivas");
         }else{
         Integer product = num1 * num2;
         System.out.println("El producto de la multiplicación de ambos números es: "+product);
@@ -38,7 +38,7 @@ public class multiplicar {
 
         System.out.println("  "+num1);
 
-        System.out.println(" x"+num2);
+        System.out.println("x "+num2);
 
         System.out.println("-------");
 
