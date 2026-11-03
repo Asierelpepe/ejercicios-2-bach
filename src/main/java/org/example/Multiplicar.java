@@ -3,7 +3,7 @@ package org.example;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class multiplicar {
+public class Multiplicar {
     static void main() {
         Scanner einstein = new Scanner(System.in);
 

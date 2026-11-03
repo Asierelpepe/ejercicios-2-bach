@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class comparando_letritas {
+public class Comparando_letritas {
     static void main() {
         System.out.println("Introduce una palabra o frase: ");
         Scanner RAE = new Scanner(System.in);

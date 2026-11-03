@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class masmenos0 {
+public class Masmenos0 {
     static void main() {
         System.out.println("Introduce un número: ");
         Scanner Pachi = new Scanner(System.in);

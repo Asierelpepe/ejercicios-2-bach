@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class mercadona {
+public class Mercadona {
     static void main() {
 
         Scanner hacendado = new Scanner(System.in);

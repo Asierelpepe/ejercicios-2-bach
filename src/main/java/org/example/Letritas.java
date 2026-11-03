@@ -1,9 +1,8 @@
 package org.example;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class letritas {
+public class Letritas {
     static void main() {
 System.out.println("Introduce una palabra o frase: ");
         Scanner RAE = new Scanner(System.in);

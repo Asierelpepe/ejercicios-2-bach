@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class pitagoras_realG_for_life {
+public class Pitagoras_realG_for_life {
     static void main() {
        Scanner lado = new Scanner(System.in);
 
