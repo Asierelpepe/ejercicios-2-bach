@@ -25,7 +25,7 @@ public class Bucles {
         }while (intento > 0);
         if (frase.contains(palabra) == false) {
 
-            System.out.println("TE HAS QUEDADO SIN INTENTOS");
+            System.out.println("GAME OVER");
         }
     }
 }
