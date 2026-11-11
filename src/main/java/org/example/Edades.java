@@ -7,10 +7,6 @@ public class Edades {
     static void main() {
         LocalDateTime hoy = LocalDateTime.now();
 
-        System.out.println("El día es: "+hoy.getDayOfMonth());
-        System.out.println("El mes es: "+hoy.getMonthValue());
-        System.out.println("El año es: "+hoy.getYear());
-        System.out.println("Minutos: "+hoy.getMinute());
         int edad = 0;
         Integer nacer = 0;
         int fecha = 0;
