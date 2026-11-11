@@ -62,17 +62,19 @@ public class Edades {
         }
         int select = nacer + fecha;
         if (select > 1900 && select <= 1927) {
-            System.out.println("Perteneces a la generación Sin Generación Bautizada");
+            System.out.println("Perteneces a la Sin Generación Bautizada");
         } else if (select > 1928 && select <= 1944) {
-            System.out.println("Perteneces a la generación Generación Silent");
+            System.out.println("Perteneces a la generación Silent");
 
         } else if (select > 1945 && select <= 1964) {
             System.out.println("Perteneces a la generación Baby Boomers");
 
         }else if (select > 1965 && select <= 1981) {
-            System.out.println("Perteneces a la generación Generación X");
+            System.out.println("Perteneces a la generación X");
         }else if (select > 1982 && select <= 1994) {
             System.out.println("Perteneces a la generación Y o Millenials");
+        }else if (select > 1995 && select <=2009) {
+            System.out.println("Perteneces a la generación Z");
         }
 
 
